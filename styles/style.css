@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* header-section */
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-position: center ;
+    height: 100vh;
+    background-size: cover;
+}
+.banner{
+    width: 1050px;
+    text-align: right;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    margin-left: 565px;
+}
+.banner p{
+    font-size: 15px;
+    color: #444343;
+    padding: 12px 0;
+    margin-left:585px;
+    line-height: 20px;
+}
+.primary-btn{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;  
+}
+/* failure-section */
+.failure .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    margin: 30px auto;
+    gap: 80px;
+}
+.failure img{
+    width: 300px;
+}
+.failure h1{
+    font-size: 35px;
+    margin-right: 90px;
+}
+ .list p,li{
+    font-size: 14px;
+    color: #464646;
+}
+/* my-plan-section */
+.my-plan h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.my-plan .text{
+    width: 900px;
+    margin: 35px auto;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+.my-plan li{
+    list-style: none;
+    margin: 0 auto;
+}
+.my-plan img{
+    width: 35px;
+}
+.my-plan p{
+    color: #9a9a9a;
+}
+/* gradient-image-section */
+.my-plan .gradient-img{
+    background-image: linear-gradient(to right, #ff4e00a6, #c4c4c442),url(../images/watch.png) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 690px;
+    height: 182px;
+    margin: 80px auto;
+    border-radius: 5px;
+}
+.my-plan .positive h2{
+    color: white;
+    font-size: 25px;
+    padding: 30px 0px 10px 35px;
+    width: 285px;
+}
+.my-plan .call-now{
+    color: #ff5002;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+    margin-left:35px ;
+
+}
