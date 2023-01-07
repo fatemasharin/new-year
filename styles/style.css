@@ -48,21 +48,24 @@ header{
     justify-content: space-between;
     width: 850px;
     margin: 30px auto;
-    gap: 80px;
+    gap: 110px;
 }
 .failure img{
-    width: 300px;
+    width: 350px;
 }
 .failure h1{
-    font-size: 35px;
+    font-size: 30px;
     margin-right: 90px;
+}
+.list{
+    margin-top: 50px;
 }
 .list ul{
     list-style: none;
     margin-left: -40px;
 }
 .list p,li{
-    font-size: 14px;
+    font-size: 13px;
     color:#464646;
     line-height: 23px;   
 }
