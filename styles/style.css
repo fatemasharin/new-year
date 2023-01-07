@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* header-section */
+
 header{
     background-image: url(../images/banner/banner1.png);
     background-position: center ;
@@ -38,7 +39,9 @@ header{
     width: 110px;
     height: 40px;  
 }
+
 /* failure-section */
+
 .failure .middle{
     display: flex;
     align-items: center;
@@ -71,8 +74,54 @@ header{
     padding-right:5px;
 }
 
+/* lesson-section */
+
+.lesson h1{
+    text-align: center;
+    margin:50px;
+}
+.lesson .box{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 15px;  
+}
+.lesson  .content{
+    width: 185px;
+    height: 25; 
+    padding: 5px 10px;  
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform .3s;
+}
+.lesson  .content:hover{
+    transform: scale(1.1);
+}
+.lesson .content h3{
+    padding-bottom: 10px;
+}
+.lesson .content p{
+    font-size: 13px;
+    color: #444343;
+}
+.box .first{
+    background-color: #f7ffcd5e;
+}
+.box .second{
+    background-color: #d7e9ff30;
+}
+.box .third{
+    background-color: #ff9dec14;
+}
+.box .forth{
+    background-color:#ffe12d21;
+}
 
 /* my-plan-section */
+
 .my-plan h1{
     text-align: center;
     margin-top: 80px;
@@ -96,6 +145,7 @@ header{
     color: #9a9a9a;
 }
 /* gradient-image-section */
+
 .my-plan .gradient-img{
     background-image: linear-gradient(to right, #ff4e00a6, #c4c4c442),url(../images/watch.png) ;
     background-repeat: no-repeat;
@@ -123,7 +173,10 @@ header{
     height: 35px;
     margin-left:35px ;
 }
+
+
 /* footer-section */
+
 footer{
     background-color: black;
    padding: 90px 0; 
@@ -161,10 +214,11 @@ footer .future p{
     width: 100px;
     margin-left: 1px;
 }
+
 /* icon-section */
+
 .fa-brands{
-    margin: 0 3px;
-    
+    margin: 0 3px; 
 }
 .fa-facebook-f{
     color: #0048a0;
@@ -173,7 +227,7 @@ footer .future p{
     padding: 6px 10px;
 }
 .fa-twitter{
-    color: #5ea6ff;
+    color: #58a3fe;
     background-color: #ffffff;
     padding: 7px;
     border-radius: 50%;
@@ -184,8 +238,4 @@ footer .future p{
     padding: 7px;
     border-radius: 50%;
 }
-/* .fa-brands:hover{
-    color: #ffffff;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: #000000;
-} */
+
